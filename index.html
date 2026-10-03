@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bingi Sindhu | AI & Product-Focused Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Bingi Sindhu, a computer science student building AI-powered products, intelligent interfaces, and thoughtful web experiences."
+    />
+    <meta name="author" content="Bingi Sindhu" />
+
+    <!-- Bootstrap 5 CSS (vendored locally for offline + reliability) -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a
+      class="visually-hidden-focusable position-absolute top-0 start-0 p-2 bg-dark text-white"
+      href="#main"
+      >Skip to content</a
+    >
+
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg site-nav sticky-top"
+      aria-label="Primary"
+    >
+      <div class="container">
+        <a class="navbar-brand brand" href="#home"
+          >SINDHU<span class="brand-dot">.</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+          <ul class="navbar-nav align-items-lg-center gap-lg-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button
+                id="themeToggle"
+                class="theme-btn"
+                type="button"
+                aria-pressed="true"
+                aria-label="Switch to light theme"
+              >
+                <span class="theme-icon" aria-hidden="true">◐</span>
+                <span class="theme-label">Theme</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main">
+      <!-- Hero / Home -->
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7">
+              <p class="eyebrow">Product-minded engineer</p>
+              <p class="hero-name">SINDHU <span class="name-b">BINGI</span></p>
+              <h1 class="display-name">
+                I design <span class="name-b">AI</span> and digital products
+                that feel <span class="name-a">useful</span>.
+              </h1>
+              <p class="role">
+                Computer Science Student • Full-Stack &amp; ML Enthusiast
+              </p>
+              <p class="lede">
+                I build interfaces, inference pipelines, and interactive
+                experiences that connect research to real problem-solving. My
+                work focuses on making thoughtful technology clear, practical,
+                and human.
+              </p>
+              <div class="cta">
+                <a class="btn btn-primary cta-primary" href="#projects"
+                  >See my work</a
+                >
+                <a class="btn btn-outline cta-secondary" href="#contact"
+                  >Let’s connect</a
+                >
+              </div>
+
+              <div class="metric-strip" aria-label="Key portfolio stats">
+                <div class="metric">
+                  <strong>4+</strong>
+                  <span>Projects shipped</span>
+                </div>
+                <div class="metric">
+                  <strong>2</strong>
+                  <span>Research explorations</span>
+                </div>
+                <div class="metric">
+                  <strong>1</strong>
+                  <span>Goal: build useful things</span>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener"
+                  >LinkedIn <span aria-hidden="true">↗</span></a
+                >
+                <a href="https://github.com/" target="_blank" rel="noopener"
+                  >GitHub <span aria-hidden="true">↗</span></a
+                >
+                <a href="mailto:sindhu.bingi@example.com"
+                  >Email <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </div>
+            <div class="col-lg-5 d-none d-lg-flex justify-content-end">
+              <div class="portrait-panel" aria-hidden="true">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="abstract-mark" aria-hidden="true">
+                  <span class="mark-core"></span>
+                  <span class="mark-ring"></span>
+                </div>
+                <div class="portrait-badge">ML × Web × UX</div>
+              </div>
+            </div>
+          </div>
+          <p class="scroll-cue d-lg-none">GET TO KNOW ME</p>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container">
+          <p class="section-eyebrow">A little about me</p>
+          <h2 class="section-title">About <span class="accent">Me</span></h2>
+          <div class="row g-4 mt-2">
+            <div class="col-lg-7">
+              <p>
+                I’m a computer science student who enjoys building thoughtful
+                digital experiences at the intersection of product thinking,
+                machine learning, and frontend craft. I like solving problems
+                that are both technically interesting and genuinely useful.
+              </p>
+              <p>
+                My recent work ranges from AI-powered classification systems and
+                research-driven experiments to interfaces that make complex
+                outputs understandable for real users. I enjoy bridging backend
+                logic, model outputs, and polished interactions into one clear
+                story.
+              </p>
+              <p>
+                Beyond coursework, I spend time exploring agentic workflows,
+                user-centric design, and the kind of engineering habits that
+                make projects scale well beyond a prototype.
+              </p>
+            </div>
+            <div class="col-lg-5">
+              <ul class="fact-list" aria-label="Quick facts">
+                <li><span>Based in</span><strong>Hyderabad, India</strong></li>
+                <li><span>Program</span><strong>B.E. CSE</strong></li>
+                <li><span>Focus</span><strong>AI + Product UX</strong></li>
+                <li><span>Looking for</span><strong>Internships</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="section section-alt">
+        <div class="container">
+          <p class="section-eyebrow">ACADEMIC PATH</p>
+          <h2 class="section-title">Education</h2>
+          <div class="row g-4 mt-2">
+            <div class="col-md-6">
+              <article class="edu-card">
+                <h3>B.E., Computer Science Engineering</h3>
+                <p class="edu-sub">
+                  Stanley College of Engineering &amp; Technology for Women
+                </p>
+                <p class="edu-meta">2023 - 2027 (expected) · CGPA 8.44</p>
+                <p>
+                  Coursework in data structures, operating systems, DBMS,
+                  computer networks, software engineering, machine learning, and
+                  full stack web development.
+                </p>
+              </article>
+            </div>
+            <div class="col-md-6">
+              <article class="edu-card">
+                <h3>Intermediate (MPC)</h3>
+                <p class="edu-sub">Telangana Board of Intermediate Education</p>
+                <p class="edu-meta">2021 - 2023</p>
+                <p>
+                  Mathematics, Physics, and Chemistry stream. Foundation for an
+                  engineering track with a focus on quantitative reasoning.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <div class="container">
+          <p class="section-eyebrow">TOOLKIT</p>
+          <h2 class="section-title">
+            Skills &amp; <span class="accent">Tools</span>
+          </h2>
+          <div class="row g-4 mt-2">
+            <div class="col-md-6 col-lg-3">
+              <div class="skill-card">
+                <h3>Languages</h3>
+                <ul>
+                  <li>Python</li>
+                  <li>JavaScript (ES6+)</li>
+                  <li>Java</li>
+                  <li>C</li>
+                  <li>SQL</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="skill-card">
+                <h3>Web</h3>
+                <ul>
+                  <li>HTML5, CSS3</li>
+                  <li>Bootstrap 5</li>
+                  <li>REST APIs</li>
+                  <li>Leaflet</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="skill-card">
+                <h3>AI and Data</h3>
+                <ul>
+                  <li>Machine Learning</li>
+                  <li>NLP</li>
+                  <li>Groq Llama 3.3 70B</li>
+                  <li>Pandas, NumPy</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="skill-card">
+                <h3>Workflow</h3>
+                <ul>
+                  <li>Git, GitHub</li>
+                  <li>VS Code</li>
+                  <li>Google Colab</li>
+                  <li>Postman</li>
+                  <li>Figma</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section section-alt">
+        <div class="container">
+          <p class="section-eyebrow">Selected work</p>
+          <h2 class="section-title">
+            Featured <span class="accent">Projects</span>
+          </h2>
+          <p class="section-sub">
+            A few experiences that blend research, engineering, and product
+            thinking.
+          </p>
+
+          <div class="filter-bar" role="tablist" aria-label="Project filter">
+            <button
+              class="filter-btn is-active"
+              data-filter="all"
+              type="button"
+            >
+              All
+            </button>
+            <button class="filter-btn" data-filter="ai" type="button">
+              AI / ML
+            </button>
+            <button class="filter-btn" data-filter="web" type="button">
+              Web
+            </button>
+            <button class="filter-btn" data-filter="research" type="button">
+              Research
+            </button>
+          </div>
+
+          <div class="row g-4 project-grid mt-2">
+            <div class="col-md-6 col-lg-4" data-category="ai web">
+              <article class="project-card">
+                <p class="project-index">01 / AI</p>
+                <h3>AgriSense</h3>
+                <p>
+                  A smart agricultural waste classifier that combines
+                  EfficientNet with explainable heatmaps and a simple
+                  user-facing dashboard for recommendations and feedback.
+                </p>
+                <div class="chips">
+                  <span>TensorFlow</span><span>Grad-CAM</span
+                  ><span>Node.js</span><span>UX</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-category="ai research">
+              <article class="project-card">
+                <p class="project-index">02 / Research</p>
+                <h3>FetalCare Insights</h3>
+                <p>
+                  A CTG classification workflow that evaluates patient health
+                  signals using ensemble learning and interpretable metrics for
+                  clinical-style analysis and documentation.
+                </p>
+                <div class="chips">
+                  <span>Python</span><span>scikit-learn</span
+                  ><span>Research</span><span>Evaluation</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-category="web">
+              <article class="project-card">
+                <p class="project-index">03 / Web</p>
+                <h3>Portfolio System</h3>
+                <p>
+                  A responsive personal portfolio designed around clarity,
+                  motion, and polished interaction so the work feels as strong
+                  as the ideas behind it.
+                </p>
+                <div class="chips">
+                  <span>HTML5</span><span>CSS3</span><span>Bootstrap</span
+                  ><span>JavaScript</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <p id="noResults" class="no-results" hidden>
+            No projects match that filter yet.
+          </p>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section">
+        <div class="container">
+          <p class="section-eyebrow">WHERE I'VE WORKED</p>
+          <h2 class="section-title">Experience</h2>
+          <div class="timeline mt-3">
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span class="timeline-date">May 2026 - Jun 2026</span>
+              </div>
+              <div class="timeline-body">
+                <h3>Software Developer Intern</h3>
+                <p class="timeline-sub">Maven Group Global, Hyderabad</p>
+                <ul>
+                  <li>
+                    Worked with the software development team on Python-based
+                    internal tooling.
+                  </li>
+                  <li>
+                    Shipped scripts for data ingestion and basic report
+                    generation used by the team.
+                  </li>
+                  <li>
+                    Picked up code review habits and version control workflow in
+                    a small team setting.
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span class="timeline-date">2025 - 2026</span>
+              </div>
+              <div class="timeline-body">
+                <h3>Research Assistant (Course Project)</h3>
+                <p class="timeline-sub">
+                  Stanley College of Engineering &amp; Technology for Women
+                </p>
+                <ul>
+                  <li>
+                    Co-authored a Cardiotocography-based fetal health
+                    classification study.
+                  </li>
+                  <li>
+                    Ran cross-validation experiments and drafted sections of the
+                    paper.
+                  </li>
+                  <li>
+                    Addressed multiple reviewer rounds for the ICDMIS 2026
+                    submission.
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements -->
+      <section id="achievements" class="section section-alt">
+        <div class="container">
+          <p class="section-eyebrow">HIGHLIGHTS</p>
+          <h2 class="section-title">
+            Achievements &amp; <span class="accent">Certifications</span>
+          </h2>
+          <div class="timeline mt-3">
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span class="timeline-date">2026</span>
+              </div>
+              <div class="timeline-body">
+                <h3>ICDMIS 2026 Submission</h3>
+                <p class="timeline-sub">Research publication</p>
+                <p>
+                  Co-authored a paper on fetal health classification submitted
+                  to the Springer LNNS proceedings with Paper ID 542.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span class="timeline-date">2026</span>
+              </div>
+              <div class="timeline-body">
+                <h3>Software Developer Internship</h3>
+                <p class="timeline-sub">Maven Group Global, Hyderabad</p>
+                <p>
+                  Completed a six-week internship focused on Python tooling,
+                  workflow automation, and team-based software delivery.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span class="timeline-date">2025</span>
+              </div>
+              <div class="timeline-body">
+                <h3>Agentic AI Seminar I &amp; II</h3>
+                <p class="timeline-sub">Academic presentation</p>
+                <p>
+                  Delivered two technical seminars on agentic AI and multi-agent
+                  systems, explaining the architecture, workflows, and practical
+                  implications for building autonomous tools.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span class="timeline-date">2023 - 2026</span>
+              </div>
+              <div class="timeline-body">
+                <h3>Consistent Academic Record</h3>
+                <p class="timeline-sub">B.E. Computer Science</p>
+                <p>
+                  Maintained a CGPA of 8.44 across six semesters while building
+                  a strong foundation in software engineering, data systems, and
+                  AI-driven problem solving.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container">
+          <p class="section-eyebrow">LET'S CONNECT</p>
+          <h2 class="section-title">Contact <span class="accent">Me</span></h2>
+          <p class="section-sub">
+            Have a question, project idea, or opportunity? Send a message.
+          </p>
+
+          <div class="contact-wrap mt-3">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="mb-3">
+                <label for="name" class="form-label">Your name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required
+                  minlength="2"
+                  autocomplete="name"
+                />
+                <div class="form-error" id="nameError" aria-live="polite"></div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                  autocomplete="email"
+                />
+                <div
+                  class="form-error"
+                  id="emailError"
+                  aria-live="polite"
+                ></div>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  minlength="10"
+                ></textarea>
+                <div
+                  class="form-error"
+                  id="messageError"
+                  aria-live="polite"
+                ></div>
+              </div>
+              <button type="submit" class="btn btn-primary cta-primary">
+                Send message
+              </button>
+              <p class="form-hint">
+                This demo validates your message in the browser. It does not
+                send or store it.
+              </p>
+              <div
+                id="formStatus"
+                class="form-status"
+                role="status"
+                aria-live="polite"
+              ></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2"
+      >
+        <p class="mb-0">
+          &copy; <span id="year"></span> Bingi Sindhu. Crafted with intent,
+          code, and curiosity.
+        </p>
+        <p class="mb-0 small">
+          Building useful ideas with AI, design, and engineering.
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
